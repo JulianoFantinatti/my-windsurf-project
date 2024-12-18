@@ -6,8 +6,8 @@ import { Header } from "@/components/layout/header";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "AnalyTech - Analytical Equipment Repair",
-  description: "Professional repair services for analytical equipment",
+  title: "ES Analitica - Equipamentos Analíticos",
+  description: "Serviços profissionais de manutenção e reparo de equipamentos analíticos",
 };
 
 export default function RootLayout({
@@ -16,7 +16,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="pt-BR">
       <body className={inter.className}>
         <Header />
         <main className="flex-1">{children}</main>

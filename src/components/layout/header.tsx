@@ -9,15 +9,15 @@ export function Header() {
       <div className="container flex h-16 items-center">
         <Link href="/" className="mr-6 flex items-center space-x-2">
           <Image
-            src="/logo.svg"
-            alt="ES Tech Logo"
-            width={80}
-            height={40}
-            className="h-8 w-auto"
+            src="/es-logo.png"
+            alt="ES Analitica Logo"
+            width={120}
+            height={60}
+            className="h-10 w-auto"
             priority
           />
           <span className="text-xl font-semibold text-primary-dark hidden sm:inline-block">
-            Tech
+            Analitica
           </span>
         </Link>
         <MainNav className="mx-6" />

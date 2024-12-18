@@ -11,20 +11,20 @@ export default function Home() {
             <div className="space-y-2">
               <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none">
                 <span className="bg-gradient-to-r from-primary via-primary-dark to-secondary bg-clip-text text-transparent">
-                  Expert Equipment Solutions
+                  Especialistas em Equipamentos Analíticos
                 </span>
               </h1>
               <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl">
-                Professional repair and maintenance services for your valuable analytical equipment.
-                Trust our expertise for reliable solutions.
+                Serviços profissionais de manutenção e reparo para seus equipamentos analíticos.
+                Conte com nossa experiência para soluções confiáveis.
               </p>
             </div>
             <div className="space-x-4">
               <Button asChild size="lg">
-                <Link href="/contact">Get a Quote</Link>
+                <Link href="/contact">Solicitar Orçamento</Link>
               </Button>
               <Button asChild variant="outline" size="lg">
-                <Link href="/services">Our Services</Link>
+                <Link href="/services">Nossos Serviços</Link>
               </Button>
             </div>
           </div>
@@ -36,21 +36,21 @@ export default function Home() {
         <div className="container px-4 md:px-6">
           <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-3">
             <div className="space-y-2">
-              <h3 className="text-xl font-bold text-primary">Expert Technicians</h3>
+              <h3 className="text-xl font-bold text-primary">Técnicos Especializados</h3>
               <p className="text-gray-500">
-                Our certified technicians have years of experience in repairing complex analytical equipment.
+                Nossa equipe de técnicos certificados possui anos de experiência em reparo de equipamentos analíticos complexos.
               </p>
             </div>
             <div className="space-y-2">
-              <h3 className="text-xl font-bold text-primary">Quick Turnaround</h3>
+              <h3 className="text-xl font-bold text-primary">Atendimento Rápido</h3>
               <p className="text-gray-500">
-                We understand the importance of your equipment and strive to provide fast repair services.
+                Entendemos a importância do seu equipamento e nos esforçamos para fornecer serviços ágeis e eficientes.
               </p>
             </div>
             <div className="space-y-2">
-              <h3 className="text-xl font-bold text-primary">Quality Guarantee</h3>
+              <h3 className="text-xl font-bold text-primary">Garantia de Qualidade</h3>
               <p className="text-gray-500">
-                All our repairs come with a satisfaction guarantee and thorough testing.
+                Todos os nossos serviços incluem garantia de satisfação e testes completos dos equipamentos.
               </p>
             </div>
           </div>

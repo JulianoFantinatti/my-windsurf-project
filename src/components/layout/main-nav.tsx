@@ -15,37 +15,37 @@ export function MainNav({
         href="/"
         className="text-sm font-medium transition-colors hover:text-primary"
       >
-        Home
+        Início
       </Link>
       <Link
         href="/about"
         className="text-sm font-medium text-gray-500 transition-colors hover:text-primary"
       >
-        About
+        Sobre
       </Link>
       <Link
         href="/services"
         className="text-sm font-medium text-gray-500 transition-colors hover:text-primary"
       >
-        Services
+        Serviços
       </Link>
       <Link
         href="/portfolio"
         className="text-sm font-medium text-gray-500 transition-colors hover:text-primary"
       >
-        Portfolio
+        Portfólio
       </Link>
       <Link
         href="/contact"
         className="text-sm font-medium text-gray-500 transition-colors hover:text-primary"
       >
-        Contact
+        Contato
       </Link>
       <Link
         href="/dashboard"
         className="text-sm font-medium text-gray-500 transition-colors hover:text-primary"
       >
-        Dashboard
+        Área do Cliente
       </Link>
     </nav>
   )
