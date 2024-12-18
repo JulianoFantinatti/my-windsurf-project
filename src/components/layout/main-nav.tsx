@@ -19,31 +19,31 @@ export function MainNav({
       </Link>
       <Link
         href="/about"
-        className="text-sm font-medium text-muted-foreground transition-colors hover:text-primary"
+        className="text-sm font-medium text-gray-500 transition-colors hover:text-primary"
       >
         About
       </Link>
       <Link
         href="/services"
-        className="text-sm font-medium text-muted-foreground transition-colors hover:text-primary"
+        className="text-sm font-medium text-gray-500 transition-colors hover:text-primary"
       >
         Services
       </Link>
       <Link
         href="/portfolio"
-        className="text-sm font-medium text-muted-foreground transition-colors hover:text-primary"
+        className="text-sm font-medium text-gray-500 transition-colors hover:text-primary"
       >
         Portfolio
       </Link>
       <Link
         href="/contact"
-        className="text-sm font-medium text-muted-foreground transition-colors hover:text-primary"
+        className="text-sm font-medium text-gray-500 transition-colors hover:text-primary"
       >
         Contact
       </Link>
       <Link
         href="/dashboard"
-        className="text-sm font-medium text-muted-foreground transition-colors hover:text-primary"
+        className="text-sm font-medium text-gray-500 transition-colors hover:text-primary"
       >
         Dashboard
       </Link>
